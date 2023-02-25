@@ -2,5 +2,12 @@
 
 int main(void)
 {
-    long x = get_int("x: ");
+    //prompt user for x
+    long x = get_long("x: ");
+
+    //prompt user for y
+    long y = get_long("y: ");
+
+    //perform addition
+    printf("%li\n", x + y);
 }
